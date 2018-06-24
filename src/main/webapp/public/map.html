@@ -38,6 +38,11 @@
       path:hover {
         fill: #d1e6c5;
       }
+
+      .dot {
+        r: 2px;
+        fill: #f00;
+      }
     </style>
   </head>
   <body>
@@ -92,7 +97,7 @@
 
       //Load in GeoJSON data
       d3.json("metropole.geojson", function(json) {
-        
+
         //Bind data and create one path per GeoJSON feature
         var enter = svg.selectAll("path")
            .data([json])
@@ -111,6 +116,21 @@
            
       });
 
+      d3.json("liste-des-gares.json", function(json) {
+
+        json = json.filter(function(i) { return i.fields.fret == "O" && i.fields.coordonnees_geographiques != undefined });
+        
+        console.log(json);
+
+        svg.selectAll(".dot")
+          .data(json)
+          .enter()
+          .append("circle")
+          .attr("class", "dot")
+          .attr("cx", function(d) { return projection(d.geometry.coordinates)[0] })
+          .attr("cy", function(d) { return projection(d.geometry.coordinates)[1] });
+          
+      });
     </script>
   </body>
 </html>
