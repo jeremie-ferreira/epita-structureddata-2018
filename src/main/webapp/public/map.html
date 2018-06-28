@@ -67,9 +67,9 @@
                    .scale([ w/1 ]); // zoom, plus la valeur est petit plus le zoom est gros 
 
       projection = d3.geo.conicConformal()
-        .center([2.3282638,47.0780167])
-        .scale(3000)
-        .translate([300,300]);
+        .center([2.2,46.5])
+        .scale(w * 4)
+        .translate([w/2,h/2]);
 
       //Define path generator
       var path = d3.geo.path()

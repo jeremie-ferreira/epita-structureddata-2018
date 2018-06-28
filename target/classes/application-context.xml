@@ -39,9 +39,8 @@
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">${db.dialect}</prop>
-                <prop key="hibernate.default_schema">${db.schema}</prop>
-                <prop key="hibernate.dialect">${db.dialect}</prop>
-                <prop key="hibernate.hbm2ddl.auto">create-drop</prop>
+                <!-- <prop key="hibernate.default_schema">${db.schema}</prop> -->
+                <prop key="hibernate.hbm2ddl.auto">${db.auto}</prop>
                 <prop key="hibernate.show_sql">${db.show_sql:false}</prop>
             </props>
         </property>
