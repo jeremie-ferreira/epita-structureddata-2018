@@ -6,9 +6,7 @@ import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.annotation.PropertySource;
  
  
-//@Import(JpaConfiguration.class)
 @PropertySource("classpath:application.properties")
-@ImportResource("classpath:application-context.xml")
 @SpringBootApplication(scanBasePackages={"com.epita.pricer"})
 public class Main {
  

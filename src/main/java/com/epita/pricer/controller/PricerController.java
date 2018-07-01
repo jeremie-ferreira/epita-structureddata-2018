@@ -8,6 +8,6 @@ public class PricerController {
 
 	@GetMapping("/")
     public String greeting() {
-        return "map";
+        return "index";
     }
 }

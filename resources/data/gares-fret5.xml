@@ -1,0 +1,2617 @@
+﻿<?xml version="1.0"?>
+
+<!DOCTYPE gares-fret [
+<!ELEMENT gares-fret (gare)+>
+
+<!ELEMENT gare (libelle,plateforme)>
+<!ATTLIST gare code CDATA #REQUIRED>
+
+<!ELEMENT libelle (#PCDATA)>
+
+<!ELEMENT plateforme (code-gare)>
+<!ATTLIST plateforme code NMTOKEN #REQUIRED>
+
+<!ELEMENT code-gare (#PCDATA)>
+]>
+
+
+<gares>
+<gare code="672212">
+  <libelle>ARTIX</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="673004">
+  <libelle>BAYONNE</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="673012">
+  <libelle>BAYONNE-ALLEES-MARINES</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="673095">
+  <libelle>BOUCAU</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="672220">
+  <libelle>LACQ</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="673103">
+  <libelle>MORCENX SC</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="672006">
+  <libelle>PAU SC</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="679324">
+  <libelle>TARTAS SC</libelle>
+  <plateforme code="BYE">
+    <code-gare>673004</code-gare>
+  </plateforme>
+</gare>
+<gare code="313874">
+  <libelle>AMIENS SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="296327">
+  <libelle>ATHIES-SOUS-LAON SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="171462">
+  <libelle>BAZANCOURT</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="118752">
+  <libelle>BRIENNE-LE-CHATEAU</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="174003">
+  <libelle>CHALONS-EN-CHAMPAGNE</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="172007">
+  <libelle>CHARLEVILLES MEZIERES SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="296616">
+  <libelle>CHAUNY SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="296152">
+  <libelle>CREPY-COUVRON SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="315119">
+  <libelle>CROIX-SAVOYARD-GARAGE(LA) SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="171371">
+  <libelle>FERE-EN-TARDENOIS</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="296012">
+  <libelle>LAON SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="313049">
+  <libelle>LONGUEAU SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="172197">
+  <libelle>LUMES TRIAGE SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="174573">
+  <libelle>MAILLY-LE-CAMP SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="296095">
+  <libelle>MARLE-SUR-SERRE SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="116103">
+  <libelle>MEAUX</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="313197">
+  <libelle>MONTIERES (QUARTIER-D&apos;AMIENS) SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="174409">
+  <libelle>MOURMELON-LE-PETIT SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="313486">
+  <libelle>NESLE (SOMME) SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="296467">
+  <libelle>ORIGNY-STE-BENOITE SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="171280">
+  <libelle>ST BRICE-COURCELLES</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="171751">
+  <libelle>ST ERME SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="174441">
+  <libelle>ST HILAIRE-AU-TEMPLE SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="174821">
+  <libelle>SUIPPES SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="276741">
+  <libelle>THOUROTTE</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="118000">
+  <libelle>TROYES</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="172114">
+  <libelle>VIREUX MOLHAIN SC</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="174219">
+  <libelle>VITRY-LA-VILLE</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="174276">
+  <libelle>VITRY-LE-FRANCOIS</libelle>
+  <plateforme code="CM">
+    <code-gare>174003</code-gare>
+  </plateforme>
+</gare>
+<gare code="281402">
+  <libelle>COUDEKERQUE-BRANCHE</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="317149">
+  <libelle>DESVRES</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="281006">
+  <libelle>DUNKERQUE LOCAL</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="287037">
+  <libelle>DUNKERQUE-GRANDE-SYNTHE</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="281204">
+  <libelle>DUNKERQUE-PORT-EST</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="577981">
+  <libelle>DUNKERQUE-PORT-EST RECYCL</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="281030">
+  <libelle>DUNKERQUE-PORT-OUEST</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="241240">
+  <libelle>DUNKERQUE-ZONE-PONDEREUX</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="281626">
+  <libelle>LEFFRINCKOUCKE</libelle>
+  <plateforme code="DKQ">
+    <code-gare>287037</code-gare>
+  </plateforme>
+</gare>
+<gare code="718007">
+  <libelle>BESANCON</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="142026">
+  <libelle>BRICON SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="725002">
+  <libelle>CHALON-SUR-SAONE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="694000">
+  <libelle>CREUSOT (LE)</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="725028">
+  <libelle>CRISSEY-GARAGE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="142125">
+  <libelle>CULMONT-CHALINDREY SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="694695">
+  <libelle>DIGOIN</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713867">
+  <libelle>DIJON-PTE-D OUCHE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713008">
+  <libelle>DIJON-PTE-NEUVE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713412">
+  <libelle>DOLE-VILLE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="718304">
+  <libelle>FRANOIS</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713032">
+  <libelle>GEVREY-TRIAGE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713859">
+  <libelle>IS-SUR-TILLE SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="683243">
+  <libelle>JOIGNY SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="175091">
+  <libelle>JOINVILLE (HAUTE-MARNE) SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="142091">
+  <libelle>LANGRES SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="683268">
+  <libelle>LAROCHE-MIGENNES SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713115">
+  <libelle>LAUMES-ALESIA (LES) SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="729111">
+  <libelle>MACON (PORT-FLUVIAL)</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713131">
+  <libelle>MONTBARD</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="694307">
+  <libelle>MONTCHANIN</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="694687">
+  <libelle>PARAY-LE-MONIAL SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713875">
+  <libelle>PERRIGNY-TRIAGE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="725614">
+  <libelle>SENNECEY-LE-GRAND</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713677">
+  <libelle>SEURRE SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="577890">
+  <libelle>SEURRE ATELIER SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="142562">
+  <libelle>STE-COLOMBE-SUR-SEINE</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="713487">
+  <libelle>TAVAUX-SOLVAY</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="718544">
+  <libelle>VALDAHON(LE) SC</libelle>
+  <plateforme code="GEV">
+    <code-gare>713032</code-gare>
+  </plateforme>
+</gare>
+<gare code="413484">
+  <libelle>GRAVENCHON-PORT-JEROME</libelle>
+  <plateforme code="HAV">
+    <code-gare>413013</code-gare>
+  </plateforme>
+</gare>
+<gare code="413013">
+  <libelle>HAVRE (LE)</libelle>
+  <plateforme code="HAV">
+    <code-gare>413013</code-gare>
+  </plateforme>
+</gare>
+<gare code="581868">
+  <libelle>BASSENS-APPONTEMENTS</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="581884">
+  <libelle>BEC-D&apos;AMBES (LE)</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="584268">
+  <libelle>BERGERAC SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="586164">
+  <libelle>BON-ENCONTRE SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="581827">
+  <libelle>BORDEAUX-HOURCADE</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="581009">
+  <libelle>BORDEAUX-ST-JEAN</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="581736">
+  <libelle>BRUGES SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="581876">
+  <libelle>CHAPELLE-D&apos;AMBES (LA)</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="582551">
+  <libelle>LABOUHEYRE SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="673129">
+  <libelle>LALUQUE SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="595298">
+  <libelle>MUSSIDAN SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="595009">
+  <libelle>PERIGUEUX SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="491209">
+  <libelle>ST MARIENS-ST-YZAN (NUCLEAIRE) SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="582643">
+  <libelle>TESTE (LA) SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="584714">
+  <libelle>VAYRES SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="582536">
+  <libelle>YCHOUX (ARMEES) SC</libelle>
+  <plateforme code="HDE">
+    <code-gare>581827</code-gare>
+  </plateforme>
+</gare>
+<gare code="214593">
+  <libelle>GRESSWILLER SC</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212092">
+  <libelle>HAUSBERGEN-TRIAGE</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212340">
+  <libelle>HERRLISHEIM (BAS-RHIN)</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212316">
+  <libelle>LA WANTZENAU</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212464">
+  <libelle>LAUTERBOURG SC</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212720">
+  <libelle>OBERHOFFEN-CAMP-HAGUENAU(ARMEE SC</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="213231">
+  <libelle>REICHSHOFFEN-USINES</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212381">
+  <libelle>REICHSTETT-GARAGE</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="577973">
+  <libelle>STRASBOURG PORT DU RHIN RECYCL</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212050">
+  <libelle>STRASBOURG-CRONENBOURG</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212068">
+  <libelle>STRASBOURG-NEUDORF</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212076">
+  <libelle>STRASBOURG-PORT-DU-RHIN</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="212027">
+  <libelle>STRASBOURG-VILLE (SERVICES)</libelle>
+  <plateforme code="HSG">
+    <code-gare>212092</code-gare>
+  </plateforme>
+</gare>
+<gare code="677005">
+  <libelle>HENDAYE</libelle>
+  <plateforme code="HYE">
+    <code-gare>677005</code-gare>
+  </plateforme>
+</gare>
+<gare code="386466">
+  <libelle>ACHERES</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="583005">
+  <libelle>ANGOULEME SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="543017">
+  <libelle>AUBRAIS (LES) SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="315168">
+  <libelle>AVRIGNY</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="485169">
+  <libelle>AYTRE SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="315341">
+  <libelle>BAILLEUL-SUR-THERAIN-GARAGE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="271478">
+  <libelle>BLANC-MESNIL (LE)</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="415893">
+  <libelle>BONNIERES</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="576207">
+  <libelle>BOURGES SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="271395">
+  <libelle>BOURGET (LE)</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="271312">
+  <libelle>BOURGET-TRIAGE (LE)</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="545194">
+  <libelle>BRETIGNY SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="543348">
+  <libelle>BRICY-BOULAY SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="484659">
+  <libelle>CHATEAU-GONTIER SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="543462">
+  <libelle>CHATEAUNEUF-SUR-LOIRE SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="597005">
+  <libelle>CHATEAUROUX SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="118133">
+  <libelle>CHATRES SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="276691">
+  <libelle>COMPIEGNE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="276006">
+  <libelle>CREIL</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="276147">
+  <libelle>EPLUCHES</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="543124">
+  <libelle>FERTE-ST-AUBIN (LA) SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="386011">
+  <libelle>FOLIE-NANTERRE (LA)</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="381566">
+  <libelle>GARGENVILLE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="271205">
+  <libelle>GENNEVILLIERS</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="684290">
+  <libelle>GIEN SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="115881">
+  <libelle>GRANDPUITS</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="112086">
+  <libelle>GRANDPUITS-BAGNEUX</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="575134">
+  <libelle>INGRANDES-SUR-VIENNE SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="276873">
+  <libelle>LAMOTTE-BREUIL</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="575845">
+  <libelle>LUSSAC-LES-CHATEAUX SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="681163">
+  <libelle>MAISONS-ALFORT-POMPADOUR</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="396002">
+  <libelle>MANS (LE) SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="381509">
+  <libelle>MANTES-LA-JOLIE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="116590">
+  <libelle>MEZY</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="684563">
+  <libelle>MIGNERES GONDREVILLE SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="271528">
+  <libelle>MITRY-CLAYE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="574681">
+  <libelle>MONNAIE SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="682302">
+  <libelle>MONTEREAU</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="276477">
+  <libelle>MOULIN-NEUF-GARAGE (OISE) SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="386680">
+  <libelle>MUREAUX (LES)</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="116095">
+  <libelle>NANGIS</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="597070">
+  <libelle>NEUVY-PAILLOUX SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="118190">
+  <libelle>NOGENT SUR SEINE SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="577866">
+  <libelle>NOISY LE SC CMT ATELIER SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="113225">
+  <libelle>NOISY-LE-SEC-MULTITECHNIQUE SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="276782">
+  <libelle>NOYON SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="214312">
+  <libelle>OBERNAI-BRASSERIE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="113209">
+  <libelle>PANTIN</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="545053">
+  <libelle>PARIS-AUSTERLITZ (PARIS-TOLBIAC)</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="545004">
+  <libelle>PARIS-TOLBIAC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="113134">
+  <libelle>PARIS-VILLETTE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="276469">
+  <libelle>PERSAN-BEAUMONT</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="386573">
+  <libelle>POISSY</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="575001">
+  <libelle>POITIERS SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="571794">
+  <libelle>PORT-BOULET SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="114421">
+  <libelle>PORT-DE-BONNEUIL</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="681338">
+  <libelle>RIS-ORANGIS</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="485011">
+  <libelle>ROCHELLE-PALLICE (LA) SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="485003">
+  <libelle>ROCHELLE-VILLE (LA) SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="491001">
+  <libelle>SAINTES SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="543165">
+  <libelle>SALBRIS SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="576322">
+  <libelle>ST AMAND-MONTROND SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="393223">
+  <libelle>ST CYR SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="543116">
+  <libelle>ST CYR-EN-VAL SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="543439">
+  <libelle>ST DENIS-JARGEAU SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="271221">
+  <libelle>ST OUEN-LES-DOCKS</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="571240">
+  <libelle>ST PIERRE-DES-CORPS SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="114413">
+  <libelle>SUCY-BONNEUIL (SAUF PORT)</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="487009">
+  <libelle>THOUARS SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="571000">
+  <libelle>TOURS SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="116293">
+  <libelle>VAIRES-TORCY</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="271387">
+  <libelle>VALENTON</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="577916">
+  <libelle>VALENTON ATELIER</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="386656">
+  <libelle>VERNOUILLET-VERNEUIL SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="393132">
+  <libelle>VERSAILLES-MATELOTS SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="576009">
+  <libelle>VIERZON SC</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="681809">
+  <libelle>VILLENEUVE-ST-GEORGES-TRIAGE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="545277">
+  <libelle>VILLENEUVE LE ROI</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="545293">
+  <libelle>VITRY-SUR-SEINE</libelle>
+  <plateforme code="IDF">
+    <code-gare>271395</code-gare>
+  </plateforme>
+</gare>
+<gare code="755447">
+  <libelle>ARCS (LES) SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="764613">
+  <libelle>ARDOISE (L&apos;) SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753657">
+  <libelle>ARLES SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="765008">
+  <libelle>AVIGNON</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="765024">
+  <libelle>AVIGNON-FONTCOUVERTE</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="759241">
+  <libelle>BEL-AIR-LA-MEDE</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753228">
+  <libelle>BERRE</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="757005">
+  <libelle>CANNES-MARCHANDISES SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="751776">
+  <libelle>CASSIS SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="751230">
+  <libelle>CHATEAU-ARNOUX-ST-AUBAN</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753186">
+  <libelle>ENTRESSEN SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753434">
+  <libelle>FOS-COUSSOUL</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="578104">
+  <libelle>FOS-COUSSOUL ATELIER</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753467">
+  <libelle>FOS-GRAVELEAU</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753475">
+  <libelle>FOS-MERIQUETTE</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753483">
+  <libelle>FOS-MOLE-CENTRAL</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="775791">
+  <libelle>GENERAC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="751081">
+  <libelle>MARSEILLE-BLANCARDE</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753509">
+  <libelle>MARTIGUES</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753004">
+  <libelle>MIRAMAS</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="577833">
+  <libelle>MIRAMAS ATELIER</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="755835">
+  <libelle>MOTTE-STE-ROSSELINE (LA) SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="775007">
+  <libelle>NÎMES</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="765107">
+  <libelle>ORANGE SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753285">
+  <libelle>PAS-DES-LANCIERS</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="753251">
+  <libelle>ROGNAC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="775551">
+  <libelle>SALINDRES SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="755264">
+  <libelle>SEYNE-SIX-FOURS (LA) SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="765206">
+  <libelle>SORGUES-CHATEAUNEUF-DU-PAPE</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="685107">
+  <libelle>ST CESAIRE RECYCLAGE</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="751701">
+  <libelle>ST MARCEL SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="763300">
+  <libelle>VEYNES DEVOLUY SC</libelle>
+  <plateforme code="MAS">
+    <code-gare>753004</code-gare>
+  </plateforme>
+</gare>
+<gare code="182840">
+  <libelle>BANTZENHEIM</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="184002">
+  <libelle>BELFORT</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182865">
+  <libelle>BLODELSHEIM SC</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182014">
+  <libelle>COLMAR SC</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182154">
+  <libelle>HUNINGUE SC</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182832">
+  <libelle>ILE-NAPOLEON</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182824">
+  <libelle>ILE-NAPOLEON-GARAGE</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="184523">
+  <libelle>MONTBELIARD</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="577841">
+  <libelle>MONTBELIARD ATELIER</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182006">
+  <libelle>MULHOUSE-NORD</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182063">
+  <libelle>MULHOUSE-VILLE</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182899">
+  <libelle>NEUF-BRISACH SC</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="214056">
+  <libelle>SELESTAT SC</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="182568">
+  <libelle>THANN</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="214825">
+  <libelle>VANCELLE (LA) SC</libelle>
+  <plateforme code="MUL">
+    <code-gare>182006</code-gare>
+  </plateforme>
+</gare>
+<gare code="484006">
+  <libelle>ANGERS-ST-LAUD SC</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="481069">
+  <libelle>BASSE-INDRE-ST-HERBLAIN (LA)</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="481721">
+  <libelle>DONGES</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="481713">
+  <libelle>MONTOIR-DE-BRETAGNE</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="481002">
+  <libelle>NANTES</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="481028">
+  <libelle>NANTES-ETAT</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="481036">
+  <libelle>REZE-PONT-ROUSSEAU</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="481705">
+  <libelle>ST NAZAIRE</libelle>
+  <plateforme code="NT">
+    <code-gare>481002</code-gare>
+  </plateforme>
+</gare>
+<gare code="781005">
+  <libelle>BEZIERS SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="578047">
+  <libelle>BEZIERS ATELIER SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="784330">
+  <libelle>BOULOU-PERTHUS (LE)</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="615286">
+  <libelle>CARCASSONNE SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="578054">
+  <libelle>CERBERE ATELIER</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="781187">
+  <libelle>COLOMBIERS SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="781104">
+  <libelle>NARBONNE SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="577858">
+  <libelle>NARBONNE ATELIER SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="784017">
+  <libelle>PERPIGNAN-SAINT-CHARLES</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="793158">
+  <libelle>PORT-BOU</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="793190">
+  <libelle>PORT-BOU CADEFER</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="781062">
+  <libelle>PORT-LA-NOUVELLE SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="773200">
+  <libelle>SETE SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="577932">
+  <libelle>SETE RECYCL SC</libelle>
+  <plateforme code="PPN">
+    <code-gare>784017</code-gare>
+  </plateforme>
+</gare>
+<gare code="474106">
+  <libelle>BREST-BASSINS SC</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="481648">
+  <libelle>CHATEAUBRIANT SC</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="473207">
+  <libelle>GUINGAMP SC</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="474098">
+  <libelle>QUIMPER SC</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="471003">
+  <libelle>RENNES</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="471052">
+  <libelle>ST JACQUES DE LA LANDE[RENNES]</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="478107">
+  <libelle>ST MALO SC</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="476606">
+  <libelle>VANNES</libelle>
+  <plateforme code="RN">
+    <code-gare>471003</code-gare>
+  </plateforme>
+</gare>
+<gare code="743716">
+  <libelle>AMBERIEU</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="746008">
+  <libelle>ANNECY SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="745497">
+  <libelle>ANNEMASSE SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="722306">
+  <libelle>BADAN</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="745000">
+  <libelle>BELLEGARDE (AIN) SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="721357">
+  <libelle>BELLEVILLE-SUR-SAONE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="745471">
+  <libelle>BOSSEY-VEYRIER SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="723361">
+  <libelle>CHANDIEU-TOUSSIEU SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="745240">
+  <libelle>CHEVRY SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="734004">
+  <libelle>CLERMONT-FERRAND SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="722660">
+  <libelle>CLONAS (NUCLEAIRE)</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="721332">
+  <libelle>COLLONGES-FONTAINES</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="641415">
+  <libelle>COMMENTRY SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="726349">
+  <libelle>COUZON (LOIRE)</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="764449">
+  <libelle>CRUAS SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="577957">
+  <libelle>CULOZ RECYCL</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="741280">
+  <libelle>EPIERRE-ST-LEGER</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="745679">
+  <libelle>EVIAN-LES-BAINS SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="696229">
+  <libelle>FOURCHAMBAULT SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="741629">
+  <libelle>FRONTENEX SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="726315">
+  <libelle>GRAND CROIX</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="747006">
+  <libelle>GRENOBLE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="734202">
+  <libelle>ISSOIRE SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="747535">
+  <libelle>JARRIE-VIZILLE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="743815">
+  <libelle>LAGNIEU</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="722314">
+  <libelle>LOIRE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="728006">
+  <libelle>LYON-GUILLOTIERE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="729202">
+  <libelle>LYON-GUILLOTIERE-PORT-HERRIOT</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="721001">
+  <libelle>LYON-VAISE SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="723528">
+  <libelle>MIRIBEL</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="723569">
+  <libelle>MONTLUEL</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="741181">
+  <libelle>MONTMELIAN SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="696328">
+  <libelle>MOULINS-SUR-ALLIER SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="696120">
+  <libelle>NEUVY-SUR-LOIRE SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="696005">
+  <libelle>NEVERS SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="741694">
+  <libelle>NOTRE-DAME-DE-BRIANCON SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="722207">
+  <libelle>OULLINS</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="764308">
+  <libelle>PIERRELATTE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="741744">
+  <libelle>POMBLIERE-ST-MARCEL</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="747493">
+  <libelle>PONTCHARRA-SUR-BREDA-ALLEVARD</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="747519">
+  <libelle>PONT-DE-CLAIX</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="761205">
+  <libelle>PORTES LES VALENCES</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="734053">
+  <libelle>RIOM CHATEL GUYON SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="747246">
+  <libelle>RIVES</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="761650">
+  <libelle>ROMANS-BOURG-DE-PEAGE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="722686">
+  <libelle>SALAISE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="722520">
+  <libelle>SIBELIN</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="641589">
+  <libelle>SOUVIGNY SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="741306">
+  <libelle>ST AVRE-LA-CHAMBRE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="722652">
+  <libelle>ST CLAIR-LES-ROCHES</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="726000">
+  <libelle>ST ETIENNE-CHATEAUCREUX</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="726133">
+  <libelle>ST ETIENNE-PONT-DE-L ANE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="728501">
+  <libelle>ST FONS</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="721282">
+  <libelle>ST GERMAIN-AU-MONT-D&apos;OR</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="742320">
+  <libelle>ST JEAN-DE-MAURIENNE-ARVAN SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="723353">
+  <libelle>ST PRIEST</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="723387">
+  <libelle>ST QUENTIN-FALLAVIER</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="761106">
+  <libelle>ST RAMBERT-D&apos;ALBON</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="783241">
+  <libelle>ST-CHELY-D APCHER SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="732206">
+  <libelle>ST-GERMAIN-DES-FOSSES SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="726281">
+  <libelle>ST-JUST-ST-RAMBERT</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="741819">
+  <libelle>UGINE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="723577">
+  <libelle>VALBONNE (LA) SC</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="721803">
+  <libelle>VEAUCHE-LA-PLAINE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="726208">
+  <libelle>VEAUCHE-ST-GALMIER</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="723304">
+  <libelle>VENISSIEUX</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="721225">
+  <libelle>VILLEFRANCHE-SUR-SAONE</libelle>
+  <plateforme code="SIB">
+    <code-gare>722520</code-gare>
+  </plateforme>
+</gare>
+<gare code="611095">
+  <libelle>BOUSSENS</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="594002">
+  <libelle>BRIVE-LA-GAILLARDE SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611897">
+  <libelle>CASTELSARRASIN SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="615468">
+  <libelle>CASTRES SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="613356">
+  <libelle>CAUSSADE SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611442">
+  <libelle>FENOUILLET</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="597609">
+  <libelle>GUERET SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="671404">
+  <libelle>LABARTHE-AVEZAC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="671123">
+  <libelle>LANNEMEZAN</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="592014">
+  <libelle>LIMOGES-PUY-IMBERT SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="783001">
+  <libelle>MILLAU SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611244">
+  <libelle>MONTAUBAN-VILLE-BOURBON SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611699">
+  <libelle>MONTBARTIER SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611038">
+  <libelle>MURET SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611343">
+  <libelle>PAMIERS SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611137">
+  <libelle>ST GAUDENS</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611657">
+  <libelle>ST JORY</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="671008">
+  <libelle>TARBES SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611012">
+  <libelle>TOULOUSE-RAYNAL</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="594093">
+  <libelle>USSEL (ARMEES) SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="611863">
+  <libelle>VALENCE-D AGEN SC</libelle>
+  <plateforme code="SJY">
+    <code-gare>611657</code-gare>
+  </plateforme>
+</gare>
+<gare code="342048">
+  <libelle>ACHIET SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="286146">
+  <libelle>ARMENTIERES</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="342014">
+  <libelle>ARRAS SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="342659">
+  <libelle>ARRAS-MEAULENS SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="342006">
+  <libelle>BETHUNE</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="342055">
+  <libelle>BETHUNE-RIVAGE</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="343707">
+  <libelle>BLANC-MISSERON SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="345116">
+  <libelle>CORBEHEM</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="345009">
+  <libelle>DOUAI SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="578088">
+  <libelle>DOUAI ATELIER SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="342204">
+  <libelle>FOUQUEREUIL</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="295568">
+  <libelle>HAUTMONT SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="286302">
+  <libelle>HAZEBROUCK SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="578120">
+  <libelle>HAZEBROUCK ATELIER SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="345157">
+  <libelle>HENIN-BEAUMONT SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="342279">
+  <libelle>ISBERGUES</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="286377">
+  <libelle>LESTREM</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="286013">
+  <libelle>LILLE-DELIVRANCE</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="140129">
+  <libelle>LILLE-GAROLILLE</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="286039">
+  <libelle>LILLE-ST-SAUVEUR</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="286724">
+  <libelle>LILLE-SUD</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="343475">
+  <libelle>LOURCHES</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="343608">
+  <libelle>ONNAING</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="343418">
+  <libelle>PROUVY-THIANT</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="343319">
+  <libelle>RAISMES (NORD) SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="286252">
+  <libelle>ROUGEBARRE-GARAGE SC</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="345405">
+  <libelle>SIN-LE-NOBLE</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="345314">
+  <libelle>SOMAIN</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="343400">
+  <libelle>TRITH-ST-LEGER</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="343004">
+  <libelle>VALENCIENNES</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="578013">
+  <libelle>VALENCIENNES ATELIER</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="577965">
+  <libelle>VALENCIENNES RECYCL</libelle>
+  <plateforme code="SOM">
+    <code-gare>345314</code-gare>
+  </plateforme>
+</gare>
+<gare code="444877">
+  <libelle>CHERBOURG SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="415018">
+  <libelle>DIEPPE SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411173">
+  <libelle>ELBEUF-ST-AUBIN SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411199">
+  <libelle>ELBEUF-VILLE SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="394296">
+  <libelle>NOGENT-LE-ROTROU SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411082">
+  <libelle>PETIT-QUEVILLY</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="415661">
+  <libelle>PONT-DE-L&apos;ARCHE SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411058">
+  <libelle>ROUEN-MARTAINVILLE</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411074">
+  <libelle>ROUEN-ORLEANS</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411223">
+  <libelle>SOTTEVILLE</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411132">
+  <libelle>ST PIERRE-LES-ELBEUF SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="411652">
+  <libelle>ST VALERY-EN-CAUX SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="447284">
+  <libelle>VALOGNES SC</libelle>
+  <plateforme code="SOT">
+    <code-gare>411223</code-gare>
+  </plateforme>
+</gare>
+<gare code="175760">
+  <libelle>BALEYCOURT</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="192658">
+  <libelle>BARONCOURT</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="193250">
+  <libelle>BENING</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="193839">
+  <libelle>BITCHE-CAMP SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="141135">
+  <libelle>BLAINVILLE-DAMELEVIERES</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="192666">
+  <libelle>CONFLANS-JARNY SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="193409">
+  <libelle>CREUTZWALD</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="578070">
+  <libelle>CREUTZWALD ATELIER</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="141812">
+  <libelle>DIEULOUARD</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="144030">
+  <libelle>DOCELLES-CHENIMENIL SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="215772">
+  <libelle>DRULINGEN SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="191015">
+  <libelle>EBANGE</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="144006">
+  <libelle>EPINAL SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="578096">
+  <libelle>FLORANGE ATELIER</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="191114">
+  <libelle>HAGONDANGE</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="578112">
+  <libelle>HAGONDANGE ATELIER</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="191163">
+  <libelle>HETTANGE-GRANDE SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="191312">
+  <libelle>KUNTZIG</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="577817">
+  <libelle>KUNTZIG ATELIER</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="141150">
+  <libelle>LUNEVILLE SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="192062">
+  <libelle>METZ-CHAMBIERE</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="192054">
+  <libelle>METZ-DEVANT-LES-PONTS SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="192047">
+  <libelle>METZ-SABLON</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="192468">
+  <libelle>PAGNY-SUR-MOSELLE</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="141788">
+  <libelle>POMPEY SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="141820">
+  <libelle>PONT A MOUSSON</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="141523">
+  <libelle>PONT-ST-VINCENT</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="215079">
+  <libelle>REDING SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="194449">
+  <libelle>REHON</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="175018">
+  <libelle>REVIGNY</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="193714">
+  <libelle>SARRALBE</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="191635">
+  <libelle>SIERCK-LES-BAINS</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="191007">
+  <libelle>THIONVILLE</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="191130">
+  <libelle>UCKANGE</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="141101">
+  <libelle>VARANGEVILLE-ST-NICOLAS</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="175778">
+  <libelle>VERDUN SC</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+<gare code="192088">
+  <libelle>WOIPPY</libelle>
+  <plateforme code="WPY">
+    <code-gare>192088</code-gare>
+  </plateforme>
+</gare>
+</gares>

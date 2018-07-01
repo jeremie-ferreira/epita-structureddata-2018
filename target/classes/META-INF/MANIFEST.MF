@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Implementation-Title: SpringBootCRUDApplicationExample
+Implementation-Title: pricer
 Implementation-Version: 1.0.0
 Built-By: jferr
-Implementation-Vendor-Id: com.epita.pricer
+Implementation-Vendor-Id: fr.epita.structureddata
 Build-Jdk: 1.8.0_161
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/SpringBootCRUDApplicationExample
+ ot-starter-parent/wagonloadpricer
 Created-By: Maven Integration for Eclipse
 
