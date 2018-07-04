@@ -9,7 +9,7 @@ import org.springframework.context.annotation.PropertySource;
 @ImportResource("classpath:application-context.xml")
 @SpringBootApplication(scanBasePackages={"com.epita.pricer"})
 public class Main {
- 
+	
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
