@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ImportService {
 	
-	private static final String LINE_COSTS_FILEPATH = "line-costs.csv";
+	private static final String LINE_COSTS_FILEPATH = "data/line-costs.csv";
 	private static final String CSV_SEPARATOR = ";";
 
 	
@@ -34,8 +34,8 @@ public class ImportService {
 			while(line != null) {
 				String[] split = line.split(CSV_SEPARATOR);
 				
-				//TODO: store the file data into MarshallingYards and Lines Objects
-				
+				//TODO: store the data into MarshallingYards and Lines Objects
+
 				line = br.readLine();
 			}
 			
