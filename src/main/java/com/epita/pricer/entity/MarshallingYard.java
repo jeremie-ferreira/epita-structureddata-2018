@@ -35,4 +35,5 @@ public class MarshallingYard {
 	public void setStation(Station station) {
 		this.station = station;
 	}
+	
 }
