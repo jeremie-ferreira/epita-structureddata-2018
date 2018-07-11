@@ -21,14 +21,14 @@ public class Line {
 	private Integer id;
 	
 	@ManyToOne
-	@JoinColumn(foreignKey=@ForeignKey(name="fk_line_origin"))
+	@JoinColumn(foreignKey=@ForeignKey(name="fk_line_origin"), nullable=false)
 	private MarshallingYard origin;
 	
 	@ManyToOne
-	@JoinColumn(foreignKey=@ForeignKey(name="fk_line_destination"))
+	@JoinColumn(foreignKey=@ForeignKey(name="fk_line_destination"), nullable=false)
 	private MarshallingYard destination;
 	
-	@Column(precision=2)
+	@Column(precision=2, nullable=false)
 	private Float cost;
 
 	public MarshallingYard getOrigin() {

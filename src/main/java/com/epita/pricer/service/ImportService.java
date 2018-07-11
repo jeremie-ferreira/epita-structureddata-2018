@@ -45,7 +45,7 @@ public class ImportService {
 	@Autowired
 	LineRepository lineRepository;
 	
-	@EventListener(ApplicationReadyEvent.class)
+	//@EventListener(ApplicationReadyEvent.class)
 	public void importData() throws Exception {
 		Map<Integer, Station> stationsMap = importStations();
 		Map<String, MarshallingYard> yardsMap = importMarshallingYards(stationsMap);
