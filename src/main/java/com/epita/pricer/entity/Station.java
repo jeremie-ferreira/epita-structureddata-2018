@@ -10,6 +10,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table
 public class Station {
@@ -27,6 +29,7 @@ public class Station {
 	private Double longitude;
 	
 	@ManyToOne
+	@JsonIgnore
 	@JoinColumn(foreignKey=@ForeignKey(name="fk_station_marchalling_yard"))
 	private MarshallingYard marshallingYard;
 

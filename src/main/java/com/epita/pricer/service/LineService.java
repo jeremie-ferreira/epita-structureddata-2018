@@ -27,7 +27,7 @@ public class LineService {
 	@Autowired
 	private MarshallingYardRepository marshallingYardRepository;
 	
-	@EventListener(ApplicationReadyEvent.class)
+	//@EventListener(ApplicationReadyEvent.class)
 	public void testPath() {
 		getPath(marshallingYardRepository.getOne("BYE"), marshallingYardRepository.getOne("WPY"));
 	}

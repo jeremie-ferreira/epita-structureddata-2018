@@ -5,10 +5,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.5/angular-material.min.css">
 </head>
 
-<body ng-app="app" ng-cloak>
+<body ng-app="app" ng-cloak style="padding: 32px">
 
-<h1>Hello</h1>
-<div></div>
+<h1>Pricer</h1>
+
+<md-whiteframe ng-controller="PricerController" style="padding: 16px" class="md-whiteframe-3dp" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout layout-align="center center">
+  <md-input-container class="md-block" flex-gt-sm>
+    <label>Origin</label>
+    <md-select ng-model="origin">
+      <md-option ng-repeat="station in stations" value="{{station.code}}">
+        {{station.name}}
+      </md-option>
+    </md-select>
+  </md-input-container>
+</md-whiteframe>
+
 <md-button class="md-raised">Button</md-button>
 
 </body>
