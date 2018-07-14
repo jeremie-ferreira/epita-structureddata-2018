@@ -34,12 +34,7 @@ public class LineService {
 	
 	@Autowired
 	private MarshallingYardRepository marshallingYardRepository;
-	
-	//@EventListener(ApplicationReadyEvent.class)
-	public void testPath() {
-		getPath(marshallingYardRepository.getOne("BYE"), marshallingYardRepository.getOne("WPY"));
-	}
-	
+
 	public Path getPath(Integer originId, Integer destinationId) {
 		Station origin = stationRepository.findById(originId).get();
 		Station destination = stationRepository.findById(destinationId).get();
