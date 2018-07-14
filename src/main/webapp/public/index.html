@@ -3,25 +3,103 @@
 <head>
   <meta charset="utf8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.5/angular-material.min.css">
+  <link rel="stylesheet" href="pricer.css">
 </head>
 
-<body ng-app="app" ng-cloak style="padding: 32px">
+<body ng-app="app" ng-cloak ng-controller="PricerController">
 
-<h1>Pricer</h1>
+<!-- Main title -->
+<div class="masthead">
+  <h1>Epita - Structured Data - Pricer</h1>
+</div>
+<!-- End Main title -->
 
-<md-whiteframe ng-controller="PricerController" style="padding: 16px" class="md-whiteframe-3dp" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout layout-align="center center">
-  <md-input-container class="md-block" flex-gt-sm>
-    <label>Origin</label>
-    <md-select ng-model="origin">
-      <md-option ng-repeat="station in stations" value="{{station.code}}">
-        {{station.name}}
-      </md-option>
-    </md-select>
-  </md-input-container>
-</md-whiteframe>
+<!-- Content -->
+<div layout="col" style="height: calc(100% - 96px);">
 
-<md-button class="md-raised">Button</md-button>
+  <!-- Input panel -->
+  <div class="md-whiteframe-4dp" flex="33">
+    <div layout-padding>
+      <h2>Input</h2>
+    </div>
 
+    <div layout-padding>
+      <md-autocomplete
+          md-selected-item="origin"
+          md-search-text="originSearchText"
+          md-items="station in querySearch(originSearchText)"
+          md-item-text="station.name"
+          md-min-length="0"
+          placeholder="Origin">
+        <md-item-template>
+          <span md-highlight-text="originSearchText" md-highlight-flags="^i">{{station.name}}</span>
+        </md-item-template>
+        <md-not-found>
+          No station matching "{{originSearchText}}" were found.
+        </md-not-found>
+      </md-autocomplete>
+
+      <md-autocomplete
+          md-selected-item="destination"
+          md-search-text="destinationSearchText"
+          md-items="station in querySearch(destinationSearchText)"
+          md-item-text="station.name"
+          md-min-length="0"
+          placeholder="Destination">
+        <md-item-template>
+          <span md-highlight-text="destinationSearchText" md-highlight-flags="^i">{{station.name}}</span>
+        </md-item-template>
+        <md-not-found>
+          No station matching "{{destinationSearchText}}" were found.
+        </md-not-found>
+      </md-autocomplete>
+      
+      <md-button class="md-raised md-primary" ng-click="updateResult()">Update Results</md-button>
+    </div>
+  </div>
+  <!-- End Input panel -->
+
+  <!-- Result panel -->
+  <div layout="row" flex>
+    <div layout-padding>
+      <h2>Results</h2>
+      <h3>Cost</h3>
+      <div class="cost">{{path.totalCost | currency}}</div>
+
+      <h3>Path</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Code</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Origin</td>
+            <td ng-bind="origin.name"></td>
+          </tr>
+          <tr ng-repeat="yard in path.yards track by $index">
+            <td ng-bind="$index + 2"></td>
+            <td ng-bind="yard.code"></td>
+            <td ng-bind="yard.station.name"></td>
+          </tr>
+          <tr>
+            <td ng-bind="path.yards.length + 2"></td>
+            <td>Destination</td>
+            <td ng-bind="destination.name"></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+  <!-- End Result panel -->
+</div>
+<!-- End Content -->
+      
 </body>
 
 <!-- Angular Material requires Angular.js Libraries -->

@@ -1,22 +1,21 @@
 package com.epita.pricer.domain;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 
 public class Graph {
-	private Set<Node> nodes = new HashSet<>();
-    
-    public void addNode(Node nodeA) {
-        nodes.add(nodeA);
-    }
+	private final List<Node> nodes;
+	private final List<Edge> edges;
 
-	public Set<Node> getNodes() {
-		return nodes;
-	}
-
-	public void setNodes(Set<Node> nodes) {
+	public Graph(List<Node> nodes, List<Edge> edges) {
 		this.nodes = nodes;
+		this.edges = edges;
 	}
-    
-    
+
+	public List<Node> getNodes() {
+		return this.nodes;
+	}
+
+	public List<Edge> getEdges() {
+		return this.edges;
+	}
 }

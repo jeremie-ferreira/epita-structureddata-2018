@@ -4,25 +4,33 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 
-import com.epita.pricer.domain.Dijkstra;
+import com.epita.pricer.domain.DijkstraAlgorithm;
+import com.epita.pricer.domain.Edge;
 import com.epita.pricer.domain.Graph;
 import com.epita.pricer.domain.Node;
+import com.epita.pricer.domain.Path;
 import com.epita.pricer.entity.Line;
 import com.epita.pricer.entity.MarshallingYard;
+import com.epita.pricer.entity.Station;
 import com.epita.pricer.repository.LineRepository;
 import com.epita.pricer.repository.MarshallingYardRepository;
+import com.epita.pricer.repository.StationRepository;
 
 @Service
 public class LineService {
 	
 	@Autowired
 	private LineRepository lineRepository;
+	
+	@Autowired
+	private StationRepository stationRepository;
 	
 	@Autowired
 	private MarshallingYardRepository marshallingYardRepository;
@@ -32,42 +40,55 @@ public class LineService {
 		getPath(marshallingYardRepository.getOne("BYE"), marshallingYardRepository.getOne("WPY"));
 	}
 	
-	public List<Line> getPath(MarshallingYard origin, MarshallingYard destination) {
-		List<Line> result = new ArrayList<>();
-		
+	public Path getPath(Integer originId, Integer destinationId) {
+		Station origin = stationRepository.findById(originId).get();
+		Station destination = stationRepository.findById(destinationId).get();
+		return getPath(origin.getMarshallingYard(), destination.getMarshallingYard());
+	}
+	
+	public Path getPath(MarshallingYard origin, MarshallingYard destination) {
 		List<MarshallingYard> yards = marshallingYardRepository.findAll();
 		Map<String, Node> nodeMap = new HashMap<>();
+		Map<String, Line> lineMap = new HashMap<>();
 		List<Line> lines = lineRepository.findAll();
 		
-		Graph graph = new Graph();
+		List<Node> nodes = new ArrayList<>();
+		List<Edge> edges = new ArrayList<>();
 		
 		for (MarshallingYard yard : yards) {
-			Node node = new Node(yard.getCode());
+			Node node = new Node();
 			node.setYard(yard);
+			nodes.add(node);
 			nodeMap.put(yard.getCode(), node);
-			graph.addNode(node);
 		}
 		
 		for (Line line : lines) {
 			Node n1 = nodeMap.get(line.getOrigin().getCode());
 			Node n2 = nodeMap.get(line.getDestination().getCode());
-			n1.addDestination(n2, line.getCost());
+			Edge edge = new Edge(n1, n2, line.getCost());
+			edges.add(edge);
+			lineMap.put(line.getOrigin().getCode() + line.getDestination().getCode(), line);
 		}
 		
-		Node originNode = nodeMap.get(origin.getCode());
+		Graph graph = new Graph(nodes, edges);
+			
+		DijkstraAlgorithm dijkstra = new DijkstraAlgorithm(graph, nodeMap.get(origin.getCode()), nodeMap.get(destination.getCode()));
+		List<Node> result = dijkstra.compute();
 		
-		graph = Dijkstra.calculateShortestPathFromSource(graph, originNode);
-		
-		for (Node n : graph.getNodes()) {
-			System.out.print(n.getName() + ": ");
-			for (Node p : originNode.getShortestPath()) {
-				System.out.print(p.getName() + ">" );
-			}
-			System.out.println(" ");
+		for(Node y : result) {
+			System.out.println(y.getYard().getCode());
 		}
 		
+		List<MarshallingYard> yardPath = result.stream().map((n) -> n.getYard()).collect(Collectors.toList());
 		
-		return result;
+		Path path = new Path();
+		path.setYards(yardPath);
+		for (int i = 0; i < yardPath.size() - 1; ++i) {
+			Line l = lineMap.get(yardPath.get(i).getCode() + yardPath.get(i+1).getCode());
+			path.setTotalCost(path.getTotalCost() + l.getCost());
+		}
+		
+		return path;
 	}
 
 }
